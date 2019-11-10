@@ -8,6 +8,7 @@ Module WorldManager
             System.IO.Path.Combine(root, "resource_packs")
             System.IO.Path.Combine(root, "behavior_packs")
             System.IO.Path.Combine(root, "levelname.txt")
+            System.IO.File.WriteAllLines(root + "/levelname.txt", "My World")
         End If
     End Function
 End Module
