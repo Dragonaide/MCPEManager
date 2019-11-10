@@ -7,6 +7,7 @@ Module WorldManager
             System.IO.Path.Combine(root, "db")
             System.IO.Path.Combine(root, "resource_packs")
             System.IO.Path.Combine(root, "behavior_packs")
+            System.IO.Path.Combine(root, "levelname.txt")
         End If
     End Function
 End Module
